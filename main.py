@@ -3,7 +3,7 @@ CMPS 2200  Recitation 1
 """
 
 ### the only imports needed are here
-import tabulate
+#import tabulate
 import time
 ###
 
@@ -76,10 +76,10 @@ def compare_search(sizes=[1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7]):
 
 def print_results(results):
 	""" done """
-	print(tabulate.tabulate(results,
-							headers=['n', 'linear', 'binary'],
-							floatfmt=".3f",
-							tablefmt="github"))
+	#print(tabulate.tabulate(results,
+							#headers=['n', 'linear', 'binary'],
+							#floatfmt=".3f",
+							#tablefmt="github"))
 
 def test_compare_search():
 	res = compare_search(sizes=[10, 100])
